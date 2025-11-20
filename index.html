@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Redações 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Minhas redações feitas no ano de 2025</h1>
+            <p>Redações que o cara bom aqui fez.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#redacoes">Redações</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="redacoes" class="redacoes-section">
+            <div class="container">
+                <h2>Minhas Redações</h2>
+                <div class="redacoes-grid">
+                    <!-- Os cards das redações serão inseridos aqui via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre-section">
+            <div class="container">
+                <h2>Sobre este Portfólio</h2>
+                <div class="sobre-content">
+                    <div class="sobre-texto">
+                        <p>Este portfólio reúne as 14 redações que produzi ao longo do ano de 2025, abordando temas variados e relevantes para a sociedade contemporânea.</p>
+                        <p>Cada trabalho representa um esforço de pesquisa, reflexão e desenvolvimento argumentativo sobre questões importantes que afetam nosso cotidiano.</p>
+                    </div>
+                    <div class="sobre-imagem">
+                        <img src="Imagem do cara ai.jpg" alt="Autor das redações" class="imagem-autor">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal para exibir as redações -->
+    <div class="modal" id="redacaoModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitulo">Redação 1</h2>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img id="modalImagem" src="" alt="Redação" class="redacao-img">
+                <div class="modal-navigation">
+                    <button id="prevBtn" class="nav-btn prev-btn" disabled>
+                        <span>&#10094;</span> Anterior
+                    </button>
+                    <button id="nextBtn" class="nav-btn next-btn">
+                        Próxima <span>&#10095;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botão de voltar ao topo -->
+    <button id="btnTopo" class="btn-topo" title="Voltar ao topo">↑</button>
+
+    <!-- Marca d'água -->
+    <div class="marca-dagua">Feito por: Rafael 3ºF</div>
+
+    <footer>
+        <div class="container">
+            <p>Desenvolvido para organização e apresentação das redações de 2025</p>
+            <p class="footer-small">© 2025 - Portfólio de Redações</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
